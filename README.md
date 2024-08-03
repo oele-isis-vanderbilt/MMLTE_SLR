@@ -31,6 +31,10 @@ The findings of the review reveal that leveraging multiple modalities provides a
 
 The review identifies several challenges and limitations in the field of multimodal learning and training environments. Key challenges include the complexity of integrating diverse data streams, ensuring data quality and privacy, and addressing the variability in data collection environments. Limitations are noted in the scalability of certain methods and the need for more robust, standardized approaches to data fusion and analysis. The research also highlights significant gaps, such as the underrepresentation of certain modalities and the need for more studies focused on physical and blended learning environments. Future work should aim to bridge these gaps by developing more scalable, standardized methodologies and exploring new avenues for integrating and analyzing multimodal data. The paper provides a comprehensive roadmap for addressing these challenges and advancing the field, inviting researchers to delve deeper into specific areas of interest.
 
-# Dataset
+# Corpus Distillation
 
 The dataset for the research paper was acquired through an extensive literature search using 42 search strings to encapsulate relevant works in the field. This search yielded 4,200 papers from Google Scholar, which were then filtered down to 73 papers through a combination of citation graph pruning and qualitative analysis, ensuring a representative and focused dataset for the review.
+
+![](/static/images/cgp.png)
+
+The corpus distillation process involved a novel approach called citation graph pruning combined with a methodical qualitative review. Citation graph pruning utilized a directed citation graph to iteratively remove papers with minimal connections to the corpus, thereby reducing the initial set from 4,200 to 1,063 papers. Following this, a systematic qualitative process was employed, which included reviewing titles, abstracts, and full texts. This rigorous method further refined the corpus by excluding irrelevant or less pertinent papers, ultimately distilling the set to 73 high-quality papers that were comprehensively analyzed in the review.
